@@ -2,7 +2,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Film Club</title>
+    <title>Film Club - Join</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
@@ -27,75 +27,95 @@
     <form>
 
       <h2>Join Film Club</h2>
-
-      <div class="profile">
-
-        <strong>Profile Picture</strong>
-                  <label for="file"></label>
-                  <input type="file" id="file">
-                  </div>
-                </div>
-
-        <div class="profile-placeholder-image">
-          <img src="./imgs/profile-placeholder.png" />
-        </div>
-
+    <div class="profile">
+      <div class="profile-stuff">
+        <div class="profile-file-input">
+        <p>profile picture</p>
+        <input type="file" id="file">
       </div>
 
-      <div class="inputs">
+    <div class="profile-placeholder-image">
+      <img src="./imgs/profile-placeholder.png" />
+    </div>
+  </div>
 
+
+  <div class="inputs">
+      <div class="inputs-one">
+        <div class="name">
         <label>name</label>
         <input type="text" name="firstandlastnames">
+        </div>
+        <div class="email">
         email address
-        <input type="text" name="emailaddress">
-        password
-        <input type="text" name="password">
-        confirm password
-        <input type="text" name="confirmpassword">
-
+        <input type="email" name="emailaddress">
       </div>
+        </div>
+      <div class="inputs-two">
+        <div class="password">
+        password
+        <input type="password" name="password">
+        </div>
+        <div class="confirm">
+        confirm password
+        <input type="password" name="confirmpassword">
+        </div>
+      </div>
+    </div>
+</div>
 
+
+  <div class="genres">
       <p>Which genres are you interested in?<p>
-      <div>
+  </div>
+
+
+  <div class="checkboxes">
+      <div class="single-box">
           <input type="checkbox" id="coding" name="interest" value="coding">
           <label for="coding">action</label>
       </div>
-      <div>
+      <div class="single-box">
           <input type="checkbox" id="coding" name="interest" value="coding">
           <label for="coding">adventure</label>
       </div>
-      <div>
+      <div class="single-box">
           <input type="checkbox" id="coding" name="interest" value="coding">
           <label for="coding">comedy</label>
       </div>
-      <div>
+      <div class="single-box">
           <input type="checkbox" id="coding" name="interest" value="coding">
           <label for="coding">drama</label>
       </div>
-      <div>
+      <div class="single-box">
           <input type="checkbox" id="coding" name="interest" value="coding">
           <label for="coding">fantasy</label>
       </div>
-      <div>
+      <div class="single-box">
           <input type="checkbox" id="coding" name="interest" value="coding">
           <label for="coding">historical</label>
       </div>
-      <div>
+      <div class="single-box">
           <input type="checkbox" id="coding" name="interest" value="coding">
           <label for="coding">horror</label>
       </div>
-      <div>
+      <div class="single-box">
           <input type="checkbox" id="coding" name="interest" value="coding">
           <label for="coding">mystery</label>
       </div>
-      <div>
+      <div class="single-box">
           <input type="checkbox" id="coding" name="interest" value="coding">
           <label for="coding">romance</label>
       </div>
-      <div>
+      <div class="single-box">
           <input type="checkbox" id="coding" name="interest" value="coding">
           <label for="coding">science fiction</label>
       </div>
+      <div class="single-box">
+          <input type="checkbox" id="coding" name="interest" value="coding">
+          <label for="coding">western</label>
+      </div>
+  </div>
 
       <div class="additional-input">
         Additional input
@@ -110,7 +130,7 @@
     <footer>
 
   <nav>
-    <a href="\">home</a>
+    <a href="index.html">home</a>
     <a href="calendar.html">calendar</a>
     <a href="join.html">join</a>
   </nav>
